@@ -122,6 +122,7 @@ def get_change_group(new_df_dev, new_df_user):
     return (dev_group_id, user_group_id, is_dev_new, is_user_new)
 
 
+
 def create_new_group(new_df_s, new_df_dev, new_df_user):
     """生成新群"""
     global new_group_id
