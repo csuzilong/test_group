@@ -130,6 +130,7 @@ def create_new_group(new_df_s, new_df_dev, new_df_user):
 
     new_df_date = new_df_s.log_date.values[0]
 
+
     # 该dev已有的用户
     old_df_s = old_df[old_df.dev == new_df_dev]
     old_df_user = old_df_s.userid.values[0]
